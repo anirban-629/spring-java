@@ -13,9 +13,15 @@ public class Main {
 //        doctor.working();
 //        nurse.working();
 
-        Staff staff = context.getBean(Doctor.class);
+//        Staff staff = context.getBean(Doctor.class);
 //        Staff staff = context.getBean(Nurse.class);
-        staff.working();
 
+//        staff.working();
+
+        Doctor doctor = context.getBean(Doctor.class);
+        doctor.working();
+        System.out.println(doctor.getQualifications());
+//        doctor.setQualifications("DNS");
+        System.out.println(doctor.getQualifications2());
     }
 }
