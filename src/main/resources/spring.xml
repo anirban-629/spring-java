@@ -5,5 +5,20 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
                            http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <context:component-scan base-package="demo2"/>
+
+    <!--    XML Based-->
+    <!--    <bean id="doctor" class="demo.Doctor"></bean>-->
+    <!--    <bean id="doctor" class="demo.Doctor">-->
+    <!--        <property name="qualifications" value="MBBS,MD"/>-->
+    <!--        <constructor-arg value="DNS"/>-->
+    <!--    </bean>-->
+    <!--    <bean id="nurse" class="demo.Nurse"></bean>-->
+
+    <!--    Annotation Based -->
+    <!--    <context:component-scan base-package="annotationBased"/>-->
+
+    <!--    Java Based-->
+    <!--    <context:component-scan base-package="javaBased"/>-->
+
 </beans>
+

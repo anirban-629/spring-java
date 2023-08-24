@@ -1,4 +1,4 @@
-package demo2;
+package annotationBased;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

@@ -1,4 +1,4 @@
-package demo;
+package xmlBased;
 
 public class Nurse implements Staff {
     public void working() {

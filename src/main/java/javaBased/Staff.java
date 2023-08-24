@@ -1,4 +1,4 @@
-package demo2;
+package javaBased;
 
 public interface Staff {
     void working();

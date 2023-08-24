@@ -1,4 +1,4 @@
-package demo;
+package xmlBased;
 
 public class Doctor implements Staff {
     private String qualifications;
