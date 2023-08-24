@@ -1,4 +1,4 @@
-package org.example;
+package demo;
 
 public class Doctor {
     public void working() {
